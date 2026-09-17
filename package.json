@@ -1,9 +1,9 @@
 {
-    "name": "tokyo-night",
-    "displayName": "Tokyo Night",
-    "description": "A clean Visual Studio Code theme that celebrates the lights of Downtown Tokyo at night.",
-    "version": "1.1.2",
-    "publisher": "enkia",
+    "name": "wi-tokyo-night",
+    "displayName": "WI Tokyo Night",
+    "description": "Tokyo Night with a higher-contrast workbench UI (sidebar, tabs, lists, activity bar) and a pastel blue status bar.",
+    "version": "1.2.0",
+    "publisher": "bobiwwi",
     "license": "MIT",
     "keywords": [
         "theme",
@@ -14,13 +14,13 @@
         "clean"
     ],
     "icon": "icon.png",
-    "homepage": "https://github.com/enkia/tokyo-night-vscode-theme",
+    "homepage": "https://github.com/bobiwwi/wi-tokyo-night-vscode-theme",
     "repository": {
-        "url": "https://github.com/enkia/tokyo-night-vscode-theme",
+        "url": "https://github.com/bobiwwi/wi-tokyo-night-vscode-theme",
         "type": "git"
     },
     "bugs": {
-        "url": "https://github.com/enkia/tokyo-night-vscode-theme/issues"
+        "url": "https://github.com/bobiwwi/wi-tokyo-night-vscode-theme/issues"
     },
     "galleryBanner": {
         "color": "#1f2335",
@@ -36,17 +36,17 @@
     "contributes": {
         "themes": [
             {
-                "label": "Tokyo Night",
+                "label": "WI Tokyo Night",
                 "uiTheme": "vs-dark",
                 "path": "./themes/tokyo-night-color-theme.json"
             },
             {
-                "label": "Tokyo Night Storm",
+                "label": "WI Tokyo Night Storm",
                 "uiTheme": "vs-dark",
                 "path": "./themes/tokyo-night-storm-color-theme.json"
             },
             {
-                "label": "Tokyo Night Light",
+                "label": "WI Tokyo Night Light",
                 "uiTheme": "vs",
                 "path": "./themes/tokyo-night-light-color-theme.json"
             }
@@ -55,5 +55,8 @@
     "scripts": {
         "package": "vsce package",
         "publish": "vsce publish"
+    },
+    "devDependencies": {
+        "vsce": "^2.15.0"
     }
 }

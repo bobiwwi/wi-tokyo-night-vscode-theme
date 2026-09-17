@@ -1,4 +1,17 @@
 # Release Notes
+## 1.2.0
+2026-09-17
+- Fork as `bobiwwi.wi-tokyo-night` so it installs alongside the upstream theme
+- Rework workbench UI contrast in Tokyo Night (dark) — editor syntax colors unchanged:
+  - Selected file in lists/explorer now uses an accent-tinted `#2b3a6a` instead of `#202330`
+  - Fix `list.hoverBackground` being darker than the sidebar background (hover was invisible)
+  - Active tab gets the editor background plus a `#7aa2f7` top border; unsaved files get an amber marker
+  - Restore the activity bar active indicator and darken its background to `#13131a` to separate it from the sidebar
+  - Brighten sidebar, panel, status bar and title bar foregrounds; add visible borders and indent guides
+  - Brighten scrollbar slider and fix its hover state being fainter than its resting state
+  - Brighter git decorations in the explorer (modified/added/deleted)
+- Pastel blue status bar (`#a9c9f0`) with dark foreground, including debug/no-folder/error/warning/remote states
+
 ## 1.1.2
 2025-02-05
 - Add source control graph colors
